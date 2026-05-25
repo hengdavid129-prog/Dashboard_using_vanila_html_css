@@ -8,43 +8,68 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <aside class="side-bar">
-        <h2>Company</h2>
-        <hr>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="active">
-                        <i class="bi bi-columns"></i>
-                        Dashboard
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-person-fill"></i>
-                        User Profile
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-geo-alt-fill"></i>
-                        Maps
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-check2-all"></i>
-                        Notifications
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-globe"></i>
-                        Supoort
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
+    <div class="dashboard-wrapper">
+        <aside class="side-bar">
+            <h2>Company</h2>
+            <hr>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="active">
+                            <i class="bi bi-columns"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-person-fill"></i>
+                            User Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Maps
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-check2-all"></i>
+                            Notifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="bi bi-globe"></i>
+                            Supoort
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <h2>Dashboard</h2>
+
+            <section class="grid-row cols-4">
+                <div class="card">Used Space</div>
+                <div class="card">Revenue</div>
+                <div class="card">Fixed Issue</div>
+                <div class="card">Followers</div>
+            </section>
+
+            <section class="grid-row cols-3">
+                <div class="card">Daily Sales</div>
+                <div class="card">Email Subscriptions</div>
+                <div class="card">Completed Tasks</div>
+            </section>
+
+            <section>
+                <div class="grid-row cols-2">
+                    <div class="card">Task: Bugs, Website, Server</div>
+                    <div class="card">Employee stats</div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
