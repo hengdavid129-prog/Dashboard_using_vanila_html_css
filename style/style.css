@@ -62,7 +62,7 @@
 .grid-row {
     display: grid;
     gap: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
     
 }
 
@@ -78,7 +78,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.card {
+.card-row-1 {
     background-color: #ffffff;
     padding: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.329);
@@ -86,12 +86,12 @@
 }
 
 
-.card .card-body {
+.card-row-1 .card-body {
     display: flex;
     justify-content: space-between;
 }
 
-.card .card-body .card-icon {
+.card-row-1 .card-body .card-icon {
     width: 80px;
     height: 80px;
     display: flex;
@@ -116,29 +116,79 @@
     background-color: rgb(194, 23, 94);
 }
 
-.card .card-body .card-information {
+.card-row-1 .card-body .card-information {
     text-align: right;
 }
 
-.card .card-body .card-information .card-title {
+.card-row-1 .card-body .card-information .card-title {
     font-size: 14px;
     color: rgb(85, 85, 85);
 }
 
-.card .card-body .card-information .card-value {
+.card-row-1 .card-body .card-information .card-value {
     font-size: 30px;
     color: rgb(73, 73, 73);
 }
 
-.card .card-footer {
+.card-row-1 .card-footer {
     padding-top:20px;
 }
 
-.card .card-footer .card-description {
+.card-row-1 .card-footer .card-description {
     font-size: 14px;
     color: gray;
 }
 
-.card .card-footer .card-description i {
+.card-row-1 .card-footer .card-description i {
+    color: black;
+}
+
+.card-row-2 {
+    background-color: #ffffff;
+    padding: 25px 25px 0px 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.329);
+}
+
+.card-row-2 .card-header {
+    height: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.card-row-2 .card-header .card-graph{
+    width: 400px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+    color: #ffffff;
+    position: absolute;
+    top: -50px;
+    box-shadow: 2px 2px 4px rgba(63, 58, 58, 0.505);
+}
+
+.card-row-2 .card-body {
+    padding: 12px 0;
+}
+
+.card-row-2 .card-body .title {
+    font-size: 22px;
+    color: gray;
+}
+.card-row-2 .card-body .description {
+    font-size: 16px;
+    color: gray;
+}
+
+.card-row-2 .card-footer {
+    font-size: 14px;
+    color: gray;
+    padding: 16px 0;
+}
+
+.card-row-2 .card-footer i {
+
     color: black;
 }
