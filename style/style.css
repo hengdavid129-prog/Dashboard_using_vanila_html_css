@@ -27,7 +27,7 @@
 .side-bar ul {
     list-style-type: none;
     padding: 20px;
-    margin-left: 15px;
+    margin: 0 8px;
 }
 
 .side-bar ul li a{
@@ -38,6 +38,7 @@
     display: flex;
     gap: 16px;
     align-items: center;
+    justify-content: start;
 }
 
 .side-bar ul li a:hover{
@@ -47,6 +48,17 @@
 .side-bar ul li a.active {
     background-color: rgb(182, 30, 101);
     color: white;
+}
+
+.side-bar .side-bar-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.side-bar .side-bar-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .main-content {
