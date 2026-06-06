@@ -220,8 +220,6 @@
     padding: 24px;
     font-size: 20px;
     position: relative;
-    display: flex;
-    justify-content: center;
 
 }
 
@@ -251,10 +249,35 @@
 }
 
 .card-row-3 .card-body {
-    margin-top: 24px;
+    margin-top: 42px;
 }
 
-.card-row-3 .card-body table {
+.card-row-3 .card-body .task-list {
+    list-style-type: none;
+    width: 100%;
+}
+
+.card-row-3 .card-body .task-list li {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 22px;
+}
+
+.card-row-3 .card-body .task-list li:last-child {
+    border-bottom: none;
+}
+
+.card-row-3 .card-body .task-action {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-left: auto;
+}
+
+/* .card-row-3 .card-body table {
     width: 100%;
 }
 
@@ -283,6 +306,37 @@
 
 .card-row-3 .card-body table td img {
     width: 24px;
+} */
+
+.card-row-3 .card-header .card-title {
+    font-size: 20px;
+    margin-bottom: 14px;
 }
+.card-row-3 .card-header .card-description {
+    font-size: 16px;
+}
+
+.card-row-3 .card-body .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.card-row-3  .employee-table th,
+.card-row-3 .employee-table td {
+    border-bottom: 1px solid gray;
+    padding: 18px 10px;
+}
+.card-row-3 .employee-table th {
+    color: rgb(17, 148, 148);
+    font-weight: normal;
+}
+
+.card-row-3 .employee-table tr:last-child td{
+    border-bottom: none;
+}
+
+
+
 
 
